@@ -51,7 +51,7 @@ a:hover {
 
 
 .container {
-  /*width: 700px;*/
+  width: 700px;
   margin: 0 auto;
 }
 
@@ -121,5 +121,8 @@ font-size: 24px;
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+  }
+  .football_stars img{
+  width: 120px;
   }
 }
