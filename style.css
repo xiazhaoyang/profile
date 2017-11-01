@@ -1,0 +1,125 @@
+
+
+body {
+  background-color:#F9F9F9;
+  font-family: 'Roboto Slab', serif;
+
+  color:#333333;
+  font-size:14px;
+  line-height:20px;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  color:#333333;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  color:#333333;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+  color:#333333;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+p{
+  font-family: 'Open Sans', serif;
+  color:#7e7e7e;
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+a {
+  font-family: 'Open Sans', serif;
+  color: #4A90E2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9CC4F3;
+  text-decoration: none;
+}
+
+
+.container {
+  /*width: 700px;*/
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card{
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 2px;
+  padding: 30px;
+  border: 1px solid #EAEAEA;
+  margin-bottom: 15px;
+}
+
+.img-circle{
+  border-radius: 50%;
+  width: 70px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline{
+  padding-left: 0px;
+}
+
+.list-inline i {
+font-size: 24px;
+}
+
+.btn{
+  padding: 10px 24px;
+  background-color: #388EF3;
+  border-radius: 24px;
+  border:0px;
+}
+
+.btn a{
+  color:white;
+}
+
+.football_stars td{
+  padding:15px;
+}
+
+.football_stars img{
+  width: 170px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
